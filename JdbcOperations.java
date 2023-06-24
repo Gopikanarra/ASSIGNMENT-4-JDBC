@@ -1,4 +1,4 @@
-package jdbc;
+pppackage jdbc;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -76,13 +76,7 @@ public class JdbcOperations {
 	        }
 		 
 		}
-	public void updateData(String table_name)throws SQLException{
-//		System.out.println("enter the id to update");
-//		int num=sc.nextInt();
-//		System.out.println("enter the column for the update:");
-//		String sname=sc.next();
-//		String query=String.format("update %s set s_name=%s WHERE s_id=%d",table_name,sname,num);
-//		
+	public void updateData(String table_name)throws SQLException{	
 		  System.out.println("Enter the id to update:");
 	        int num = sc.nextInt();
 	        System.out.println("Enter the column for the update:");
